@@ -1,0 +1,89 @@
+<!doctype html>
+   
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Custom Shirt Designer App</title>
+	<link rel="stylesheet" href="stylesheets/main.css" type="text/css" />
+	<link rel="stylesheet" href="stylesheets/jquery-ui.css" type="text/css" media="screen" title="no title" charset="utf-8">
+	<script src="javascripts/jquery.js" type="text/javascript" charset="utf-8"></script>
+	<script src="javascripts/jquery-ui.js" type="text/javascript" charset="utf-8"></script>
+	   <script type="text/javascript" src="javascripts/app.js">  </script>
+	<script src="javascripts/application.js" type="text/javascript" charset="utf-8"></script>
+	
+</head>
+<body id="editor">  
+	<div class="container">
+			
+
+    <div class="designer">   <h2> Custom Shirt Designer App</h2>
+       <div class="noOverFlow" style="opacity: 1; z-index: 1; ">
+
+           <img id="main" src="img/full.png" style="position: relative; top: 0px; left: 0px; "/>
+           <img id="collar_base" src="img/collar_ladies_normal.png" style="position: absolute; top: 0px; left: 0px;"/>
+           <img id="placket" src="img/placket1.png" style="position: absolute; top: 0px; left: 0px; "/>
+           <img id="cuff" src="img/cuff1.png" style="position: absolute; top: 0px; left: 0px; "/>
+           <img id="button" src="img/button1.png" style="position: absolute; top: 0px; left: 0px; "/>
+           <img id="collar" src="" style="position: absolute; top: 0px; left: 0px; "/>
+           <img id="collar_button" src="img/collar_normal.png" style="position: absolute; top: 0px; left: 0px; "/>
+
+
+		</div>
+			</div>
+	</div>
+	<nav>
+		<form>
+			<div id="inspector">
+				<h3><a href="#">Fabric</a></h3>
+				<div> Choose Fabric:
+					<div class="colors" input="shirt_color" id="select_shirt_color">
+						<div val="white" class="item"><div style="background: #FFF"></div></div>
+							</div>
+				</div>
+				<h3><a href="#">Collar</a></h3>
+				<div>
+					<p>choose collar </p>
+					    <div class="chooser">
+        <div>
+          <ul>
+              <li>
+                  <a href="javascript:check(0)">normal</a>  </li>
+                 <li> <a href="javascript:check(1)">cutaway collar</a>  </li>
+                 <li> <a href="javascript:check(2)">mao</a>  </li>
+              </li>
+          </ul>
+        </div>
+    </div>
+				</div>
+				<h3><a href="#">Cuff</a></h3>
+				<div>
+					<p>
+				
+					</p>
+					<ul>
+              <li>
+                  <a href="javascript:check(3)">Cuff4</a>  </li>
+                 <li> <a href="javascript:check(4)">Cuff2</a>  </li>
+                 <li> <a href="javascript:check(5)">Cuff3</a>  </li>
+              </li>
+          </ul>
+				</div>
+				
+				<h3><a href="#">Button</a></h3>
+				<div>
+					<p>
+				
+					</p>
+					<ul>
+              <li>
+                  <a href="javascript:check(6)">Button1</a>  </li>
+                 <li> <a href="javascript:check(7)">Button2</a>  </li>
+               </li>
+          </ul>
+				</div>
+			</div>
+		</form>
+	</nav>
+	
+</body>
+</html>
