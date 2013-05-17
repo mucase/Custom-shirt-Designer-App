@@ -1,0 +1,89 @@
+body {
+  background-color: #ffffff;
+  color: #333333;
+  font-family: Verdana, Helvetica, Arial;
+  font-size: 12px;
+}
+a {
+  color: #1b97f2;
+  text-decoration: none;
+}
+a:hover { text-decoration: underline; }
+a img { border: none; }
+h1, h2, h3, h4, h5 { text-align: center; }
+h1 { font-size: 24px; }
+h2 {
+  color: #e98c08;
+  font-size: 18px;
+}
+h2 a {
+  color: #e98c08;
+  font-size: 18px;
+}
+h3 {
+  color: #666666;
+  font-size: 14px;
+}
+h4 {
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+label { font-size: 12px; }
+label.required { font-weight: bold; }
+ul {
+  margin: 4px 0;
+  padding-left: 17px;
+}
+.container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 480px;
+  padding: 20px;
+  overflow-y: scroll;
+}
+
+#shirt canvas {
+  position: absolute;
+  z-index: 2;
+}
+#shirt div {
+  width: 500px;
+  height: 500px;
+}
+#shirt div.over { border: 1px solid #eeeeee; }
+
+ .noOverFlow {
+        position: absolute;
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+    }
+  
+nav {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 380px;
+  overflow-y: auto;
+}
+nav > form { margin: 10px !important; }
+.colors { clear: both; }
+.colors > .item {
+  width: 24px;
+  height: 24px;
+  padding: 1px;
+  border: 1px solid #333333;
+  float: left;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+.colors > .selected { border-style: dotted !important; }
+.colors > .item > div {
+  width: 24px;
+  height: 24px;
+}
+
